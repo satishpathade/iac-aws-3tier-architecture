@@ -103,14 +103,9 @@ variable "db_instance_class" {
   default = "db.t3.micro"
 }
 
-variable "git_repo_url" {
-  type    = string
-  default = "https://github.com/satishpathade/cloudvault-aws-3tier-file-storage"
-}
-
 variable "key_name" {
   type    = string
-  default = "CloudVault-CICD"
+  default = "server-key"
 }
 
 variable "secret_key" {
